@@ -12,6 +12,15 @@ const inertiaConfig = defineConfig({
    */
   sharedData: {
     errors: (ctx) => ctx.session?.flashMessages.get('errors'),
+    error: (ctx) => ctx.session?.flashMessages.get('error'),
+
+    auth: async (ctx) => {
+      await ctx.auth?.check();
+      return {
+        user: ctx.auth?.user || null,
+        isAuthenticated: ctx.auth?.isAuthenticated || false,
+      };
+    },
   },
 
   /**

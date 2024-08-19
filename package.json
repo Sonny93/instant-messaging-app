@@ -73,6 +73,7 @@
     "@minimalstuff/ui": "^0.0.29",
     "@vinejs/vine": "^2.1.0",
     "edge.js": "^6.0.2",
+    "hex-rgb": "^5.0.0",
     "luxon": "^3.5.0",
     "pg": "^8.12.0",
     "react": "^18.3.1",

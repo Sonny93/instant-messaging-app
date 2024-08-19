@@ -1,5 +1,7 @@
+import { errors as authErrors } from '@adonisjs/auth';
+import { errors } from '@adonisjs/core';
+import { ExceptionHandler, HttpContext } from '@adonisjs/core/http';
 import app from '@adonisjs/core/services/app';
-import { HttpContext, ExceptionHandler } from '@adonisjs/core/http';
 import type {
   StatusPageRange,
   StatusPageRenderer,
@@ -35,6 +37,12 @@ export default class HttpExceptionHandler extends ExceptionHandler {
    * response to the client
    */
   async handle(error: unknown, ctx: HttpContext) {
+    if (error instanceof authErrors.E_INVALID_CREDENTIALS) {
+      ctx.session.flash('error', 'Account with this email does not exist');
+    }
+
+    // TODO: handle duplicated entries for email
+
     return super.handle(error, ctx);
   }
 
