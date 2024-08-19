@@ -11,9 +11,12 @@ export default function Home(props: { version: number }) {
         <h1>AdonisJS {props.version} x Inertia x React</h1>
         {isAuthenticated ? user.username : 'hello'}
         {isAuthenticated ? (
-          <Link href="/logout" method="post">
-            Disconnect
-          </Link>
+          <>
+            <Link href="/logout" method="post" as="button">
+              Disconnect
+            </Link>
+            <Link href="/chat">see your messages</Link>
+          </>
         ) : (
           <>
             <Link href="/login">Login</Link>

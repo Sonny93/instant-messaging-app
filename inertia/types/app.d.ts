@@ -8,3 +8,9 @@ export type User = CommonBase & {
   username: string;
   email: string;
 };
+
+export type Message = CommonBase & {
+  content: string;
+  targetId: number;
+  senderId: number;
+};
