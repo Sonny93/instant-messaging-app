@@ -1,14 +1,15 @@
 import { useForm } from '@inertiajs/react';
 import { Button, Textbox } from '@minimalstuff/ui';
 import { FormEvent, useCallback, useMemo } from 'react';
+import { makeRequest } from '~/lib/request';
 import { User } from '~/types/app';
 
 export default function CreateMessageForm({
-  targetId,
+  targetUser,
 }: {
-  targetId: User['id'];
+  targetUser: User;
 }) {
-  const { data, setData, reset, post, processing, errors } = useForm({
+  const { data, setData, reset, processing, errors } = useForm({
     content: '',
   });
   const isFormDisabled = useMemo(
@@ -19,10 +20,14 @@ export default function CreateMessageForm({
   const handleSubmit = useCallback(
     async (event: FormEvent<HTMLFormElement>) => {
       event.preventDefault();
-      await post(`/chat/${targetId}`);
+      await makeRequest({
+        url: `/chat/${targetUser.id}`,
+        method: 'post',
+        body: data,
+      });
       reset();
     },
-    [data]
+    [data, reset]
   );
 
   return (
@@ -40,7 +45,7 @@ export default function CreateMessageForm({
         name="content"
         onChange={setData}
         value={data.content}
-        placeholder={`Send a message to @${targetId}`}
+        placeholder={`Send a message to @${targetUser.username}`}
         maxLength={4000}
         autoFocus
       />

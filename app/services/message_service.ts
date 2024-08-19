@@ -45,4 +45,18 @@ export default class MessageService {
 
     return await User.query().whereIn('id', Array.from(userIds));
   }
+
+  async getUsersWhoNeverTalkedToTheCurrentUser(userId: User['id']) {
+    const communicatedUserIds = await this.getConversationsOfUser(userId);
+    if (communicatedUserIds.length === 0) {
+      return await User.query().andWhere('id', '!=', userId);
+    }
+
+    return await User.query()
+      .whereNotIn(
+        'id',
+        communicatedUserIds.map((user) => user.id)
+      )
+      .andWhere('id', '!=', userId);
+  }
 }
