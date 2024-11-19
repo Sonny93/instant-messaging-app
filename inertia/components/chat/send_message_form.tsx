@@ -1,14 +1,10 @@
 import { useForm } from '@inertiajs/react';
-import { Button, Textbox } from '@minimalstuff/ui';
-import { FormEvent, useCallback, useMemo } from 'react';
+import { Button, Form, Textbox } from '@minimalstuff/ui';
+import { FormEvent, useMemo } from 'react';
 import { makeRequest } from '~/lib/request';
 import { User } from '~/types/app';
 
-export default function CreateMessageForm({
-  targetUser,
-}: {
-  targetUser: User;
-}) {
+export default function SendMessageForm({ targetUser }: { targetUser: User }) {
   const { data, setData, reset, processing, errors } = useForm({
     content: '',
   });
@@ -17,31 +13,32 @@ export default function CreateMessageForm({
     [processing, data]
   );
 
-  const handleSubmit = useCallback(
-    async (event: FormEvent<HTMLFormElement>) => {
-      event.preventDefault();
-      await makeRequest({
-        url: `/chat/${targetUser.id}`,
-        method: 'post',
-        body: data,
-      });
-      reset();
-    },
-    [data, reset]
-  );
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    await makeRequest({
+      url: `/chat/${targetUser.id}`,
+      method: 'post',
+      body: data,
+    });
+    // data is updated but visually nothing change, maybe the issue is the textbox component
+    reset();
+  };
 
   return (
-    <form
+    <Form
       onSubmit={handleSubmit}
       css={{
         display: 'flex',
         gap: '.35em',
         alignItems: 'center',
         justifyContent: 'center',
+        '& > *': {
+          width: '100%',
+          marginBlock: '0.5em',
+        },
       }}
     >
       <Textbox
-        label="Message"
         name="content"
         onChange={setData}
         value={data.content}
@@ -53,6 +50,6 @@ export default function CreateMessageForm({
       <Button css={{ display: 'none' }} type="submit" disabled={isFormDisabled}>
         send
       </Button>
-    </form>
+    </Form>
   );
 }

@@ -19,7 +19,7 @@ importers:
         version: 2.2.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))
       '@adonisjs/inertia':
         specifier: ^1.1.0
-        version: 1.1.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(@adonisjs/vite@3.0.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/shield@8.1.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2)(vite@5.4.1(@types/node@20.16.0)))(edge.js@6.0.2)
+        version: 1.1.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(@adonisjs/vite@3.0.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/shield@8.1.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2)(vite@5.4.2(@types/node@20.16.1)))(edge.js@6.0.2)
       '@adonisjs/lucid':
         specifier: ^21.1.0
         version: 21.2.0(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(luxon@3.5.0)(pg@8.12.0)
@@ -40,28 +40,28 @@ importers:
         version: 1.0.0
       '@adonisjs/vite':
         specifier: ^3.0.0
-        version: 3.0.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/shield@8.1.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2)(vite@5.4.1(@types/node@20.16.0))
+        version: 3.0.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/shield@8.1.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2)(vite@5.4.2(@types/node@20.16.1))
       '@emotion/react':
         specifier: ^11.13.0
-        version: 11.13.0(@types/react@18.3.3)(react@18.3.1)
+        version: 11.13.0(@types/react@18.3.4)(react@18.3.1)
       '@emotion/styled':
         specifier: ^11.13.0
-        version: 11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
+        version: 11.13.0(@emotion/react@11.13.0(@types/react@18.3.4)(react@18.3.1))(@types/react@18.3.4)(react@18.3.1)
+      '@faker-js/faker':
+        specifier: ^8.4.1
+        version: 8.4.1
       '@inertiajs/react':
         specifier: ^1.2.0
         version: 1.2.0(react@18.3.1)
       '@minimalstuff/ui':
-        specifier: ^0.0.29
-        version: 0.0.29(@types/react@18.3.3)(prop-types@15.8.1)
+        specifier: ^0.0.30
+        version: 0.0.30(@types/react@18.3.4)(prop-types@15.8.1)
       '@vinejs/vine':
         specifier: ^2.1.0
         version: 2.1.0
       edge.js:
         specifier: ^6.0.2
         version: 6.0.2
-      hex-rgb:
-        specifier: ^5.0.0
-        version: 5.0.0
       luxon:
         specifier: ^3.5.0
         version: 3.5.0
@@ -98,22 +98,22 @@ importers:
         version: 3.1.4
       '@swc/core':
         specifier: ^1.6.3
-        version: 1.7.11
+        version: 1.7.14
       '@types/luxon':
         specifier: ^3.4.2
         version: 3.4.2
       '@types/node':
         specifier: ^20.14.5
-        version: 20.16.0
+        version: 20.16.1
       '@types/react':
         specifier: ^18.3.3
-        version: 18.3.3
+        version: 18.3.4
       '@types/react-dom':
         specifier: ^18.3.0
         version: 18.3.0
       '@vitejs/plugin-react':
         specifier: ^4.3.1
-        version: 4.3.1(vite@5.4.1(@types/node@20.16.0))
+        version: 4.3.1(vite@5.4.2(@types/node@20.16.1))
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -122,7 +122,7 @@ importers:
         version: 0.2.6
       husky:
         specifier: ^9.1.4
-        version: 9.1.4
+        version: 9.1.5
       lint-staged:
         specifier: ^15.2.9
         version: 15.2.9
@@ -134,13 +134,13 @@ importers:
         version: 3.3.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@swc/core@1.7.11)(@types/node@20.16.0)(typescript@5.5.4)
+        version: 10.9.2(@swc/core@1.7.14)(@types/node@20.16.1)(typescript@5.5.4)
       typescript:
         specifier: ^5.4.5
         version: 5.5.4
       vite:
         specifier: ^5.3.1
-        version: 5.4.1(@types/node@20.16.0)
+        version: 5.4.2(@types/node@20.16.1)
 
 packages:
 
@@ -840,8 +840,8 @@ packages:
     resolution: {integrity: sha512-9I2Zn6+NJLfaGoz9jN3lpwDgAYvfGeNYdbAIjJOqzs4Tpc+VU3Jqq4IofSUBKajiDS8k9fZIg18/z13mpk1bsA==}
     engines: {node: '>=8'}
 
-  '@minimalstuff/ui@0.0.29':
-    resolution: {integrity: sha512-IgS4kwjrG1M8+E1epHy/P3epcCrSf0c+OMFHby09hCAoHtcZJTz25NrMRYs+ChxX6K+ieNjh36eVmhUK+TIhqA==}
+  '@minimalstuff/ui@0.0.30':
+    resolution: {integrity: sha512-Kwv4vuSzYUAtt5a9diOS9Y3rD5n56q0/2EQ0BXk0gMxfrb1BaZZOiTszps8tc053LAVnxbfV+igPH2qK9r/MZw==}
 
   '@noble/hashes@1.4.0':
     resolution: {integrity: sha512-V1JJ1WTRUqHHrOSh597hURcMqVKVGL/ea3kv0gSnEdsEZ0/+VyPghM1lMNGc00z7CIQorSvbKpuJkxvuHbvdbg==}
@@ -1010,68 +1010,68 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@swc/core-darwin-arm64@1.7.11':
-    resolution: {integrity: sha512-HRQv4qIeMBPThZ6Y/4yYW52rGsS6yrpusvuxLGyoFo45Y0y12/V2yXkOIA/0HIQyrqoUAxn1k4zQXpPaPNCmnw==}
+  '@swc/core-darwin-arm64@1.7.14':
+    resolution: {integrity: sha512-V0OUXjOH+hdGxDYG8NkQzy25mKOpcNKFpqtZEzLe5V/CpLJPnpg1+pMz70m14s9ZFda9OxsjlvPbg1FLUwhgIQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@swc/core-darwin-x64@1.7.11':
-    resolution: {integrity: sha512-vtMQj0F3oYwDu5yhO7SKDRg1XekRSi6/TbzHAbBXv+dBhlGGvcZZynT1H90EVFTv+7w7Sh+lOFvRv5Z4ZTcxow==}
+  '@swc/core-darwin-x64@1.7.14':
+    resolution: {integrity: sha512-9iFvUnxG6FC3An5ogp5jbBfQuUmTTwy8KMB+ZddUoPB3NR1eV+Y9vOh/tfWcenSJbgOKDLgYC5D/b1mHAprsrQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
 
-  '@swc/core-linux-arm-gnueabihf@1.7.11':
-    resolution: {integrity: sha512-mHtzWKxhtyreI4CSxs+3+ENv8t/Qo35WFoYG66qHEgJz/Z2Lh6jv1E+MYgHdYwnpQHgHbdvAco7HsBu/Dt6xXw==}
+  '@swc/core-linux-arm-gnueabihf@1.7.14':
+    resolution: {integrity: sha512-zGJsef9qPivKSH8Vv4F/HiBXBTHZ5Hs3ZjVGo/UIdWPJF8fTL9OVADiRrl34Q7zOZEtGXRwEKLUW1SCQcbDvZA==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
 
-  '@swc/core-linux-arm64-gnu@1.7.11':
-    resolution: {integrity: sha512-FRwe/x0GfXSQjGP2lIk+NO0pUFS/lI/RorCLBPiK808EVE9JTbh9DKCc/4Bbb4jgScAjNkrFCUVObQYl3YKmpA==}
+  '@swc/core-linux-arm64-gnu@1.7.14':
+    resolution: {integrity: sha512-AxV3MPsoI7i4B8FXOew3dx3N8y00YoJYvIPfxelw07RegeCEH3aHp2U2DtgbP/NV1ugZMx0TL2Z2DEvocmA51g==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
 
-  '@swc/core-linux-arm64-musl@1.7.11':
-    resolution: {integrity: sha512-GY/rs0+GUq14Gbnza90KOrQd/9yHd5qQMii5jcSWcUCT5A8QTa8kiicsM2NxZeTJ69xlKmT7sLod5l99lki/2A==}
+  '@swc/core-linux-arm64-musl@1.7.14':
+    resolution: {integrity: sha512-JDLdNjUj3zPehd4+DrQD8Ltb3B5lD8D05IwePyDWw+uR/YPc7w/TX1FUVci5h3giJnlMCJRvi1IQYV7K1n7KtQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
 
-  '@swc/core-linux-x64-gnu@1.7.11':
-    resolution: {integrity: sha512-QDkGRwSPmp2RBOlSs503IUXlWYlny8DyznTT0QuK0ML2RpDFlXWU94K/EZhS0RBEUkMY/W51OacM8P8aS/dkCg==}
+  '@swc/core-linux-x64-gnu@1.7.14':
+    resolution: {integrity: sha512-Siy5OvPCLLWmMdx4msnEs8HvEVUEigSn0+3pbLjv78iwzXd0qSBNHUPZyC1xeurVaUbpNDxZTpPRIwpqNE2+Og==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
 
-  '@swc/core-linux-x64-musl@1.7.11':
-    resolution: {integrity: sha512-SBEfKrXy6zQ6ksnyxw1FaCftrIH4fLfA81xNnKb7x/6iblv7Ko6H0aK3P5C86jyqF/82+ONl9C7ImGkUFQADig==}
+  '@swc/core-linux-x64-musl@1.7.14':
+    resolution: {integrity: sha512-FtEGm9mwtRYQNK43WMtUIadxHs/ja2rnDurB99os0ZoFTGG2IHuht2zD97W0wB8JbqEabT1XwSG9Y5wmN+ciEQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
 
-  '@swc/core-win32-arm64-msvc@1.7.11':
-    resolution: {integrity: sha512-a2Y4xxEsLLYHJN7sMnw9+YQJDi3M1BxEr9hklfopPuGGnYLFNnx5CypH1l9ReijEfWjIAHNi7pq3m023lzW1Hg==}
+  '@swc/core-win32-arm64-msvc@1.7.14':
+    resolution: {integrity: sha512-Jp8KDlfq7Ntt2/BXr0y344cYgB1zf0DaLzDZ1ZJR6rYlAzWYSccLYcxHa97VGnsYhhPspMpmCvHid97oe2hl4A==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
 
-  '@swc/core-win32-ia32-msvc@1.7.11':
-    resolution: {integrity: sha512-ZbZFMwZO+j8ulhegJ7EhJ/QVZPoQ5qc30ylJQSxizizTJaen71Q7/13lXWc6ksuCKvg6dUKrp/TPgoxOOtSrFA==}
+  '@swc/core-win32-ia32-msvc@1.7.14':
+    resolution: {integrity: sha512-I+cFsXF0OU0J9J4zdWiQKKLURO5dvCujH9Jr8N0cErdy54l9d4gfIxdctfTF+7FyXtWKLTCkp+oby9BQhkFGWA==}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
 
-  '@swc/core-win32-x64-msvc@1.7.11':
-    resolution: {integrity: sha512-IUohZedSJyDu/ReEBG/mqX6uG29uA7zZ9z6dIAF+p6eFxjXmh9MuHryyM+H8ebUyoq/Ad3rL+rUCksnuYNnI0w==}
+  '@swc/core-win32-x64-msvc@1.7.14':
+    resolution: {integrity: sha512-NNrprQCK6d28mG436jVo2TD+vACHseUECacEBGZ9Ef0qfOIWS1XIt2MisQKG0Oea2VvLFl6tF/V4Lnx/H0Sn3Q==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
 
-  '@swc/core@1.7.11':
-    resolution: {integrity: sha512-AB+qc45UrJrDfbhPKcUXk+9z/NmFfYYwJT6G7/iur0fCse9kXjx45gi40+u/O2zgarG/30/zV6E3ps8fUvjh7g==}
+  '@swc/core@1.7.14':
+    resolution: {integrity: sha512-9aeXeifnyuvc2pcuuhPQgVUwdpGEzZ+9nJu0W8/hNl/aESFsJGR5i9uQJRGu0atoNr01gK092fvmqMmQAPcKow==}
     engines: {node: '>=10'}
     peerDependencies:
       '@swc/helpers': '*'
@@ -1145,11 +1145,11 @@ packages:
   '@types/luxon@3.4.2':
     resolution: {integrity: sha512-TifLZlFudklWlMBfhubvgqTXRzLDI5pCbGa4P8a3wPyUQSW+1xQ5eDsreP9DWHX3tjq1ke96uYG/nwundroWcA==}
 
-  '@types/node@18.19.44':
-    resolution: {integrity: sha512-ZsbGerYg72WMXUIE9fYxtvfzLEuq6q8mKERdWFnqTmOvudMxnz+CBNRoOwJ2kNpFOncrKjT1hZwxjlFgQ9qvQA==}
+  '@types/node@18.19.45':
+    resolution: {integrity: sha512-VZxPKNNhjKmaC1SUYowuXSRSMGyQGmQjvvA1xE4QZ0xce2kLtEhPDS+kqpCPBZYgqblCLQ2DAjSzmgCM5auvhA==}
 
-  '@types/node@20.16.0':
-    resolution: {integrity: sha512-vDxceJcoZhIVh67S568bm1UGZO0DX0hpplJZxzeXMKwIPLn190ec5RRxQ69BKhX44SUGIxxgMdDY557lGLKprQ==}
+  '@types/node@20.16.1':
+    resolution: {integrity: sha512-zJDo7wEadFtSyNz5QITDfRcrhqDvQI1xQNQ0VoizPjM/dVAODqqIUWbJPkvsxmTI0MYRGRikcdjMPhOssnPejQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1172,8 +1172,8 @@ packages:
   '@types/react-transition-group@4.4.11':
     resolution: {integrity: sha512-RM05tAniPZ5DZPzzNFP+DmrcOdD0efDUxMy3145oljWSl3x9ZV5vhme98gTxFrj2lhXvmGNnUiuDyJgY9IKkNA==}
 
-  '@types/react@18.3.3':
-    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
+  '@types/react@18.3.4':
+    resolution: {integrity: sha512-J7W30FTdfCxDDjmfRM+/JqLHBIyl7xUIp9kwK637FGmY7+mkSFSe6L4jpZzhj5QMfLssSDP4/i75AKkrdC7/Jw==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -1657,8 +1657,8 @@ packages:
   dateformat@4.6.3:
     resolution: {integrity: sha512-2P0p0pFGzHS5EMnhdxQi7aJN+iMheud0UhG4dlE1DLAlvL8JHjJJTX/CSm4JXwV0Ka5nGk3zC5mcb5bUQUxxMA==}
 
-  dayjs@1.11.12:
-    resolution: {integrity: sha512-Rt2g+nTbLlDWZTwwrIXjy9MeiZmSDI375FvZs72ngxx8PDC6YXOeR3q5LAuPzjZQxhiWdRKac7RKV+YyQYfYIg==}
+  dayjs@1.11.13:
+    resolution: {integrity: sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==}
 
   debug@2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
@@ -1780,8 +1780,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.11:
-    resolution: {integrity: sha512-R1CccCDYqndR25CaXFd6hp/u9RaaMcftMkphmvuepXr5b1vfLkRml6aWVeBhXJ7rbevHkKEMJtz8XqPf7ffmew==}
+  electron-to-chromium@1.5.12:
+    resolution: {integrity: sha512-tIhPkdlEoCL1Y+PToq3zRNehUaKp3wBX/sr7aclAWdIWjvqAe/Im/H0SiCM4c1Q8BLPHCdoJTol+ZblflydehA==}
 
   emittery@1.0.3:
     resolution: {integrity: sha512-tJdCJitoy2lrC2ldJcqN4vkqJ00lT+tOWNT1hBJjO/3FDMJa5TTIiYGCKGkn/WfCyOzUMObeohbVTj00fhiLiA==}
@@ -2240,8 +2240,8 @@ packages:
     resolution: {integrity: sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==}
     engines: {node: '>=16.17.0'}
 
-  husky@9.1.4:
-    resolution: {integrity: sha512-bho94YyReb4JV7LYWRWxZ/xr6TtOTt8cMfmQ39MQYJ7f/YE268s3GdghGwi+y4zAeqewE5zYLvuhV0M0ijsDEA==}
+  husky@9.1.5:
+    resolution: {integrity: sha512-rowAVRUBfI0b4+niA4SJMhfQwc107VLkBUgEYYAOQAbqDCnra1nYh83hF/MDmhYs9t9n1E3DuKOrs2LYNC+0Ag==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3377,8 +3377,8 @@ packages:
   spdx-expression-parse@3.0.1:
     resolution: {integrity: sha512-cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q==}
 
-  spdx-license-ids@3.0.18:
-    resolution: {integrity: sha512-xxRs31BqRYHwiMzudOrpSiHtZ8i/GeionCBDSilhYRj+9gIcI8wCZTlXZKu9vZIVqViP3dcp9qE5G6AlIaD+TQ==}
+  spdx-license-ids@3.0.20:
+    resolution: {integrity: sha512-jg25NiDV/1fLtSgEgyvVyDunvaNHbuwF9lfNV17gSmPFAlYzdfNBlLtLzXTevwkPj7DhGbmN9VnmJIgLnhvaBw==}
 
   split-lines@3.0.0:
     resolution: {integrity: sha512-d0TpRBL/VfKDXsk8JxPF7zgF5pCUDdBMSlEL36xBgVeaX448t+yGXcJaikUyzkoKOJ0l6KpMfygzJU9naIuivw==}
@@ -3643,8 +3643,8 @@ packages:
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  undici-types@6.19.6:
-    resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
+  undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
   unicorn-magic@0.1.0:
     resolution: {integrity: sha512-lRfVq8fE8gz6QMBuDM6a+LO3IAzTi05H6gCVaUpir2E1Rwpo4ZUog45KpNXKC/Mn3Yb9UDuHumeFTo9iV/D9FQ==}
@@ -3694,8 +3694,8 @@ packages:
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
 
-  vite@5.4.1:
-    resolution: {integrity: sha512-1oE6yuNXssjrZdblI9AfBbHCC41nnyoVoEZxQnID6yvQZAFBzxxkqoFLtHUMkYunL8hwOLEjgTuxpkRxvba3kA==}
+  vite@5.4.2:
+    resolution: {integrity: sha512-dDrQTRHp5C1fTFzcSaMxjk6vdpKvT+2/mIdE07Gw2ykehT49O0z/VHS3zZ8iV/Gh8BJJKHWOe5RjaNrW5xf/GA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -3999,11 +3999,11 @@ snapshots:
       vary: 1.1.2
       youch: 3.3.3
 
-  '@adonisjs/inertia@1.1.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(@adonisjs/vite@3.0.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/shield@8.1.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2)(vite@5.4.1(@types/node@20.16.0)))(edge.js@6.0.2)':
+  '@adonisjs/inertia@1.1.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(@adonisjs/vite@3.0.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/shield@8.1.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2)(vite@5.4.2(@types/node@20.16.1)))(edge.js@6.0.2)':
     dependencies:
       '@adonisjs/core': 6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2)
       '@adonisjs/session': 7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2)
-      '@adonisjs/vite': 3.0.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/shield@8.1.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2)(vite@5.4.1(@types/node@20.16.0))
+      '@adonisjs/vite': 3.0.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/shield@8.1.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2)(vite@5.4.2(@types/node@20.16.1))
       '@poppinss/utils': 6.7.3
       '@tuyau/utils': 0.0.4
       crc-32: 1.2.2
@@ -4100,14 +4100,14 @@ snapshots:
 
   '@adonisjs/tsconfig@1.3.0': {}
 
-  '@adonisjs/vite@3.0.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/shield@8.1.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2)(vite@5.4.1(@types/node@20.16.0))':
+  '@adonisjs/vite@3.0.0(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/shield@8.1.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2)(vite@5.4.2(@types/node@20.16.1))':
     dependencies:
       '@adonisjs/core': 6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2)
       '@poppinss/utils': 6.7.3
-      '@vavite/multibuild': 4.1.2(vite@5.4.1(@types/node@20.16.0))
+      '@vavite/multibuild': 4.1.2(vite@5.4.2(@types/node@20.16.1))
       edge-error: 4.0.1
-      vite: 5.4.1(@types/node@20.16.0)
-      vite-plugin-restart: 0.4.1(vite@5.4.1(@types/node@20.16.0))
+      vite: 5.4.2(@types/node@20.16.1)
+      vite-plugin-restart: 0.4.1(vite@5.4.2(@types/node@20.16.1))
     optionalDependencies:
       '@adonisjs/shield': 8.1.1(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(@adonisjs/session@7.4.2(@adonisjs/core@6.12.1(@adonisjs/assembler@7.7.0(babel-plugin-macros@3.1.0)(typescript@5.5.4))(@vinejs/vine@2.1.0)(edge.js@6.0.2))(edge.js@6.0.2))(edge.js@6.0.2)
       edge.js: 6.0.2
@@ -4317,7 +4317,7 @@ snapshots:
 
   '@emotion/memoize@0.9.0': {}
 
-  '@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1)':
+  '@emotion/react@11.13.0(@types/react@18.3.4)(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.25.0
       '@emotion/babel-plugin': 11.12.0
@@ -4329,7 +4329,7 @@ snapshots:
       hoist-non-react-statics: 3.3.2
       react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.4
     transitivePeerDependencies:
       - supports-color
 
@@ -4343,18 +4343,18 @@ snapshots:
 
   '@emotion/sheet@1.4.0': {}
 
-  '@emotion/styled@11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)':
+  '@emotion/styled@11.13.0(@emotion/react@11.13.0(@types/react@18.3.4)(react@18.3.1))(@types/react@18.3.4)(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.25.0
       '@emotion/babel-plugin': 11.12.0
       '@emotion/is-prop-valid': 1.3.0
-      '@emotion/react': 11.13.0(@types/react@18.3.3)(react@18.3.1)
+      '@emotion/react': 11.13.0(@types/react@18.3.4)(react@18.3.1)
       '@emotion/serialize': 1.3.0
       '@emotion/use-insertion-effect-with-fallbacks': 1.1.0(react@18.3.1)
       '@emotion/utils': 1.4.0
       react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.4
     transitivePeerDependencies:
       - supports-color
 
@@ -4593,17 +4593,17 @@ snapshots:
 
   '@lukeed/ms@2.0.2': {}
 
-  '@minimalstuff/ui@0.0.29(@types/react@18.3.3)(prop-types@15.8.1)':
+  '@minimalstuff/ui@0.0.30(@types/react@18.3.4)(prop-types@15.8.1)':
     dependencies:
-      '@emotion/react': 11.13.0(@types/react@18.3.3)(react@18.3.1)
-      '@emotion/styled': 11.13.0(@emotion/react@11.13.0(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
+      '@emotion/react': 11.13.0(@types/react@18.3.4)(react@18.3.1)
+      '@emotion/styled': 11.13.0(@emotion/react@11.13.0(@types/react@18.3.4)(react@18.3.1))(@types/react@18.3.4)(react@18.3.1)
       hex-rgb: 5.0.0
       js-cookie: 3.0.5
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-hotkeys-hook: 4.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-icons: 5.3.0(react@18.3.1)
-      react-select: 5.8.0(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-select: 5.8.0(@types/react@18.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-toggle: 4.1.3(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       tinycolor2: 1.6.0
     transitivePeerDependencies:
@@ -4758,51 +4758,51 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@swc/core-darwin-arm64@1.7.11':
+  '@swc/core-darwin-arm64@1.7.14':
     optional: true
 
-  '@swc/core-darwin-x64@1.7.11':
+  '@swc/core-darwin-x64@1.7.14':
     optional: true
 
-  '@swc/core-linux-arm-gnueabihf@1.7.11':
+  '@swc/core-linux-arm-gnueabihf@1.7.14':
     optional: true
 
-  '@swc/core-linux-arm64-gnu@1.7.11':
+  '@swc/core-linux-arm64-gnu@1.7.14':
     optional: true
 
-  '@swc/core-linux-arm64-musl@1.7.11':
+  '@swc/core-linux-arm64-musl@1.7.14':
     optional: true
 
-  '@swc/core-linux-x64-gnu@1.7.11':
+  '@swc/core-linux-x64-gnu@1.7.14':
     optional: true
 
-  '@swc/core-linux-x64-musl@1.7.11':
+  '@swc/core-linux-x64-musl@1.7.14':
     optional: true
 
-  '@swc/core-win32-arm64-msvc@1.7.11':
+  '@swc/core-win32-arm64-msvc@1.7.14':
     optional: true
 
-  '@swc/core-win32-ia32-msvc@1.7.11':
+  '@swc/core-win32-ia32-msvc@1.7.14':
     optional: true
 
-  '@swc/core-win32-x64-msvc@1.7.11':
+  '@swc/core-win32-x64-msvc@1.7.14':
     optional: true
 
-  '@swc/core@1.7.11':
+  '@swc/core@1.7.14':
     dependencies:
       '@swc/counter': 0.1.3
       '@swc/types': 0.1.12
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.7.11
-      '@swc/core-darwin-x64': 1.7.11
-      '@swc/core-linux-arm-gnueabihf': 1.7.11
-      '@swc/core-linux-arm64-gnu': 1.7.11
-      '@swc/core-linux-arm64-musl': 1.7.11
-      '@swc/core-linux-x64-gnu': 1.7.11
-      '@swc/core-linux-x64-musl': 1.7.11
-      '@swc/core-win32-arm64-msvc': 1.7.11
-      '@swc/core-win32-ia32-msvc': 1.7.11
-      '@swc/core-win32-x64-msvc': 1.7.11
+      '@swc/core-darwin-arm64': 1.7.14
+      '@swc/core-darwin-x64': 1.7.14
+      '@swc/core-linux-arm-gnueabihf': 1.7.14
+      '@swc/core-linux-arm64-gnu': 1.7.14
+      '@swc/core-linux-arm64-musl': 1.7.14
+      '@swc/core-linux-x64-gnu': 1.7.14
+      '@swc/core-linux-x64-musl': 1.7.14
+      '@swc/core-win32-arm64-msvc': 1.7.14
+      '@swc/core-win32-ia32-msvc': 1.7.14
+      '@swc/core-win32-x64-msvc': 1.7.14
 
   '@swc/counter@0.1.3': {}
 
@@ -4873,13 +4873,13 @@ snapshots:
 
   '@types/luxon@3.4.2': {}
 
-  '@types/node@18.19.44':
+  '@types/node@18.19.45':
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@20.16.0':
+  '@types/node@20.16.1':
     dependencies:
-      undici-types: 6.19.6
+      undici-types: 6.19.8
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -4893,13 +4893,13 @@ snapshots:
 
   '@types/react-dom@18.3.0':
     dependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.4
 
   '@types/react-transition-group@4.4.11':
     dependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.4
 
-  '@types/react@18.3.3':
+  '@types/react@18.3.4':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -5002,12 +5002,12 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vavite/multibuild@4.1.2(vite@5.4.1(@types/node@20.16.0))':
+  '@vavite/multibuild@4.1.2(vite@5.4.2(@types/node@20.16.1))':
     dependencies:
-      '@types/node': 18.19.44
+      '@types/node': 18.19.45
       cac: 6.7.14
       picocolors: 1.0.1
-      vite: 5.4.1(@types/node@20.16.0)
+      vite: 5.4.2(@types/node@20.16.1)
 
   '@vinejs/compiler@2.5.0': {}
 
@@ -5017,19 +5017,19 @@ snapshots:
       '@types/validator': 13.12.0
       '@vinejs/compiler': 2.5.0
       camelcase: 8.0.0
-      dayjs: 1.11.12
+      dayjs: 1.11.13
       dlv: 1.1.3
       normalize-url: 8.0.1
       validator: 13.12.0
 
-  '@vitejs/plugin-react@4.3.1(vite@5.4.1(@types/node@20.16.0))':
+  '@vitejs/plugin-react@4.3.1(vite@5.4.2(@types/node@20.16.1))':
     dependencies:
       '@babel/core': 7.25.2
       '@babel/plugin-transform-react-jsx-self': 7.24.7(@babel/core@7.25.2)
       '@babel/plugin-transform-react-jsx-source': 7.24.7(@babel/core@7.25.2)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.1(@types/node@20.16.0)
+      vite: 5.4.2(@types/node@20.16.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -5201,7 +5201,7 @@ snapshots:
   browserslist@4.23.3:
     dependencies:
       caniuse-lite: 1.0.30001651
-      electron-to-chromium: 1.5.11
+      electron-to-chromium: 1.5.12
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
 
@@ -5431,7 +5431,7 @@ snapshots:
 
   dateformat@4.6.3: {}
 
-  dayjs@1.11.12: {}
+  dayjs@1.11.13: {}
 
   debug@2.6.9:
     dependencies:
@@ -5533,7 +5533,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.11: {}
+  electron-to-chromium@1.5.12: {}
 
   emittery@1.0.3: {}
 
@@ -6072,7 +6072,7 @@ snapshots:
 
   human-signals@5.0.0: {}
 
-  husky@9.1.4: {}
+  husky@9.1.5: {}
 
   iconv-lite@0.4.24:
     dependencies:
@@ -6866,11 +6866,11 @@ snapshots:
 
   react-refresh@0.14.2: {}
 
-  react-select@5.8.0(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-select@5.8.0(@types/react@18.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.0
       '@emotion/cache': 11.13.1
-      '@emotion/react': 11.13.0(@types/react@18.3.3)(react@18.3.1)
+      '@emotion/react': 11.13.0(@types/react@18.3.4)(react@18.3.1)
       '@floating-ui/dom': 1.6.10
       '@types/react-transition-group': 4.4.11
       memoize-one: 6.0.0
@@ -6878,7 +6878,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      use-isomorphic-layout-effect: 1.1.2(@types/react@18.3.3)(react@18.3.1)
+      use-isomorphic-layout-effect: 1.1.2(@types/react@18.3.4)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - supports-color
@@ -7158,16 +7158,16 @@ snapshots:
   spdx-correct@3.2.0:
     dependencies:
       spdx-expression-parse: 3.0.1
-      spdx-license-ids: 3.0.18
+      spdx-license-ids: 3.0.20
 
   spdx-exceptions@2.5.0: {}
 
   spdx-expression-parse@3.0.1:
     dependencies:
       spdx-exceptions: 2.5.0
-      spdx-license-ids: 3.0.18
+      spdx-license-ids: 3.0.20
 
-  spdx-license-ids@3.0.18: {}
+  spdx-license-ids@3.0.20: {}
 
   split-lines@3.0.0: {}
 
@@ -7327,14 +7327,14 @@ snapshots:
       '@ts-morph/common': 0.23.0
       code-block-writer: 13.0.2
 
-  ts-node@10.9.2(@swc/core@1.7.11)(@types/node@20.16.0)(typescript@5.5.4):
+  ts-node@10.9.2(@swc/core@1.7.14)(@types/node@20.16.1)(typescript@5.5.4):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       acorn: 8.12.1
       acorn-walk: 8.3.3
       arg: 4.1.3
@@ -7345,7 +7345,7 @@ snapshots:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     optionalDependencies:
-      '@swc/core': 1.7.11
+      '@swc/core': 1.7.14
 
   tslib@2.6.3: {}
 
@@ -7430,7 +7430,7 @@ snapshots:
 
   undici-types@5.26.5: {}
 
-  undici-types@6.19.6: {}
+  undici-types@6.19.8: {}
 
   unicorn-magic@0.1.0: {}
 
@@ -7446,11 +7446,11 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  use-isomorphic-layout-effect@1.1.2(@types/react@18.3.3)(react@18.3.1):
+  use-isomorphic-layout-effect@1.1.2(@types/react@18.3.4)(react@18.3.1):
     dependencies:
       react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.4
 
   v8-compile-cache-lib@3.0.1: {}
 
@@ -7465,18 +7465,18 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-restart@0.4.1(vite@5.4.1(@types/node@20.16.0)):
+  vite-plugin-restart@0.4.1(vite@5.4.2(@types/node@20.16.1)):
     dependencies:
       micromatch: 4.0.7
-      vite: 5.4.1(@types/node@20.16.0)
+      vite: 5.4.2(@types/node@20.16.1)
 
-  vite@5.4.1(@types/node@20.16.0):
+  vite@5.4.2(@types/node@20.16.1):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.41
       rollup: 4.21.0
     optionalDependencies:
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       fsevents: 2.3.3
 
   wcwidth@1.0.1:

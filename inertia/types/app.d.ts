@@ -6,7 +6,7 @@ export type CommonBase = {
 
 export type User = CommonBase & {
   username: string;
-  email: string;
+  avatar: string;
 };
 
 export type Message = CommonBase & {

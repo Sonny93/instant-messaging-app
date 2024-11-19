@@ -1,28 +1,61 @@
 import styled from '@emotion/styled';
-import { Link } from '@inertiajs/react';
-import { useState } from 'react';
+import { rgba, RoundedImage } from '@minimalstuff/ui';
 import CreateMessageForm from '~/components/chat/send_message_form';
+import MessageList from '~/components/messages/message_list';
+import UserCard from '~/components/user_card';
+import UserList from '~/components/users/user_list';
 import { TargetUserContextProvider } from '~/contexts/target_user_context';
 import { TransmitContextProvider } from '~/contexts/transmit_context';
-import useSubscribe from '~/hooks/use_subscribe';
 import type { Message, User } from '~/types/app';
+import bgImage from '../images/background.jpg';
+
+const Background = styled.div({
+  height: '100%',
+  width: '100%',
+  backgroundImage: `url(${bgImage})`,
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  display: 'flex',
+  alignItems: 'center',
+  flexDirection: 'column',
+});
 
 const Container = styled.div(({ theme }) => ({
-  width: theme.medias.tablet,
+  height: '100%',
+  width: theme.medias.small_desktop,
+  maxWidth: '100%',
+  backgroundColor: rgba(theme.colors.background, 0.65),
+  backdropFilter: 'blur(.75em)',
+  margin: '3em',
+  borderRadius: '10px',
   display: 'flex',
+  gap: '1.5em',
   justifyContent: 'center',
 }));
 
 const SideSection = styled.aside({
-  widrh: '300px',
+  width: '300px',
+  padding: '1em',
 });
+
+const LeftSection = styled(SideSection)(({ theme }) => ({
+  borderRight: `1px solid ${rgba(theme.colors.grey.default, 0.5)}`,
+}));
+
+const RightSection = styled(SideSection)(({ theme }) => ({
+  borderLeft: `1px solid ${rgba(theme.colors.grey.default, 0.5)}`,
+}));
 
 const ContentSection = styled.main({
   height: '100%',
+  minWidth: '400px',
+  paddingBlock: '1em',
+  display: 'flex',
   flex: 1,
+  flexDirection: 'column',
 });
 
-export default function ChatPage({
+const ChatPage = ({
   conversations,
   messages,
   users,
@@ -35,47 +68,45 @@ export default function ChatPage({
   targetUser: User;
   targetId: User['id'];
   chatTargetUrl?: string;
-}) {
-  return (
-    <TransmitContextProvider>
-      <TargetUserContextProvider targetUser={targetUser}>
+}) => (
+  <TransmitContextProvider>
+    <TargetUserContextProvider targetUser={targetUser}>
+      <Background>
         <Container>
-          <SideSection>
+          <LeftSection>
+            <UserCard />
             {conversations.length === 0 && <p>no conversation yet</p>}
-            <ul>
-              {[conversations, users].flat().map((user) => (
-                <li key={user.id}>
-                  <Link href={`/chat/${user.id}`}>{user.username}</Link>
-                </li>
-              ))}
-            </ul>
-          </SideSection>
+            <UserList users={[conversations, users].flat()} />
+          </LeftSection>
           <ContentSection>
             {!targetUser && <p>Select a conversation</p>}
             {messages && targetUser && (
-              <Messages chatTargetUrl={chatTargetUrl!} messages={messages} />
+              <MessageList chatTargetUrl={chatTargetUrl!} messages={messages} />
             )}
             {targetUser && <CreateMessageForm targetUser={targetUser} />}
           </ContentSection>
-          <SideSection>// user's info</SideSection>
+          {targetUser && (
+            <RightSection>
+              <RoundedImage
+                src={targetUser.avatar}
+                size={96}
+                css={{ margin: '2em auto', display: 'block' }}
+              />
+              <p
+                css={{
+                  fontSize: '1.15rem !important',
+                  textAlign: 'center',
+                  letterSpacing: '1px',
+                }}
+              >
+                {targetUser.username}
+              </p>
+            </RightSection>
+          )}
         </Container>
-      </TargetUserContextProvider>
-    </TransmitContextProvider>
-  );
-}
+      </Background>
+    </TargetUserContextProvider>
+  </TransmitContextProvider>
+);
 
-function Messages(props: { messages: Message[]; chatTargetUrl: string }) {
-  const [messages, setMessages] = useState<Message[]>(props.messages);
-  useSubscribe<Message>(props.chatTargetUrl, (newMessage) =>
-    setMessages((prevMessages) => {
-      const messagesCopy = [...prevMessages, newMessage];
-      return messagesCopy;
-    })
-  );
-
-  return (
-    <ul css={{ listStyle: 'none' }}>
-      {messages?.map((message) => <li key={message.id}>{message.content}</li>)}
-    </ul>
-  );
-}
+export default ChatPage;

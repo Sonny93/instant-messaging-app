@@ -7,19 +7,27 @@ router.on('/').renderInertia('home');
 
 router
   .group(() => {
-    router.get('/chat/:targetId?', [ChatController, 'showChat']);
-    router.post('/chat/:targetId', [ChatController, 'sendMessage']);
+    router
+      .get('/chat/:targetId?', [ChatController, 'showChat'])
+      .as('chat.show');
+    router
+      .post('/chat/:targetId', [ChatController, 'sendMessage'])
+      .as('chat.send');
 
-    router.post('/logout', [UsersController, 'logout']);
+    router.post('/logout', [UsersController, 'logout']).as('auth.logout');
   })
   .middleware([middleware.auth()]);
 
 router
   .group(() => {
-    router.get('/login', [UsersController, 'showLoginForm']);
-    router.get('/signin', [UsersController, 'showSigninForm']);
+    router
+      .get('/login', [UsersController, 'showLoginForm'])
+      .as('auth.form.login');
+    router
+      .get('/signin', [UsersController, 'showSigninForm'])
+      .as('auth.form.signin');
 
-    router.post('/login', [UsersController, 'login']);
-    router.post('/signin', [UsersController, 'signin']);
+    router.post('/login', [UsersController, 'login']).as('auth.api.login');
+    router.post('/signin', [UsersController, 'signin']).as('auth.api.signin');
   })
   .middleware([middleware.guest()]);

@@ -1,4 +1,5 @@
 import type { HttpContext } from '@adonisjs/core/http';
+import { faker } from '@faker-js/faker';
 
 import User from '#models/user';
 import { userLogin } from '#validators/user_login';
@@ -15,7 +16,10 @@ export default class UsersController {
 
   async signin({ request, response, auth }: HttpContext) {
     const user = await request.validateUsing(userSignin);
-    const createdUser = await User.create(user);
+    const createdUser = await User.create({
+      ...user,
+      avatar: faker.image.urlLoremFlickr({ height: 128, width: 128 }),
+    });
     await auth.use('web').login(createdUser);
     response.redirect('/');
   }

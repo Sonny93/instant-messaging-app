@@ -1,10 +1,9 @@
 import { SharedProps } from '@adonisjs/inertia/types';
 import styled from '@emotion/styled';
 import { Link, useForm } from '@inertiajs/react';
-import { Button, Form, Textbox } from '@minimalstuff/ui';
+import { Button, Form, rgba, Textbox } from '@minimalstuff/ui';
 import { FormEvent, ReactNode } from 'react';
 import FormLayout from '~/layouts/form_layout';
-import { rgba } from '~/lib/colors';
 
 const ErrorMessage = styled.p(({ theme }) => ({
   border: `1px solid ${theme.colors.red.default}`,
